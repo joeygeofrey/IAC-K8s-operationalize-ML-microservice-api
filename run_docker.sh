@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Builds image and add a descriptive tag
-docker build --tag=ml-api .
+docker build -t joeygeofrey/ml-api .
 
 # Lists docker images
 docker image ls
