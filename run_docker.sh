@@ -1,12 +1,10 @@
 #!/usr/bin/env bash
 
-## Complete the following steps to get Docker running locally
+# Builds image and add a descriptive tag
+docker build --tag=ml-api .
 
-# Step 1:
-# Build image and add a descriptive tag
+# Lists docker images
+docker image ls
 
-# Step 2: 
-# List docker images
-
-# Step 3: 
-# Run flask app
+# Runs flask app
+docker run -p 8000:80 ml-api
