@@ -27,7 +27,7 @@ jobs:
       - run:
           name: run lint
           command: |
-            .ml-api/bin/activate
+            . ml-api/bin/activate
             make lint
 
 workflows:
