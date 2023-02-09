@@ -69,4 +69,4 @@ source ~/.ml-api/bin/activate
 3. Download Docker image, deploy to pod and forward the port `./run_K8s.sh`
 4. Run predictions: open a new terminal tab and call `./make_prediction.sh`
 5. Exit the Flask app `ctrl + C`
-6. Pause the clyster `minikube stop` or delete the cluster `minikube delete`
+6. Pause the cluster `minikube stop` or delete the cluster `minikube delete`
