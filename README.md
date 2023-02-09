@@ -1,4 +1,4 @@
-# UdaPredict | Operationalize an ML Microservice API - Joey Geofrey
+# Operationalize an ML Microservice API - Joey Geofrey
 
 ## Build Status:
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/joeygeofrey/IAC-K8s-operationalize-ML-microservice-api/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/joeygeofrey/IAC-K8s-operationalize-ML-microservice-api/tree/main)
