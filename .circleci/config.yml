@@ -4,7 +4,7 @@ orbs:
   slack: circleci/slack@4.12.0
 
 jobs:
-  build:
+  Build:
     docker:
       - image: python:3.7.3-stretch    
     working_directory: ~/repo
