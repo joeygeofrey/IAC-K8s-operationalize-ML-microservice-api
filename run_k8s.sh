@@ -10,7 +10,9 @@ kubectl run ml-api --image=$dockerpath --port=80
 
 # List K8s pods
 kubectl get deploy,rs,svc,pods
-sleep 20
+
+# Wait till container is running
+sleep 40
 
 # Forward the container port to a host
 kubectl port-forward ml-api 8000:80
