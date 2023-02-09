@@ -22,21 +22,21 @@ The goal of this project is to operationalize a working, machine learning micros
 
 ### Project Repo Files Overview
 
-├── .circleci `CircleCI directory for the configuration files`
-│   └── config.yml `A YAML configuration file with parameters and workflows for building/testing`
-├── model_data `Contains the model data for the Flask app`
-├── output_txt_files `A directory containing output logs from Docker and K8s`
-│   ├── docker_out.txt `Log statements containing output prediction values`
-│   └── k8s_out.txt `Log statements containing output prediction values`
-├── Dockerfile `Builds Docker images based on the instructions within`
-├── Makefile `Contains a set of utility commands to build and manage the project`  
-├── README.md `Summary of the project and execution`
-├── app.py `A flask app which converts a JSON payload to a DataFrame, passes data to the pre-trained model`
-├── make_predictions.sh `Sends input data to the flask app`
-├── requirements.txt `Lists required dependencies and packaghe versions`
-├── run_docker.sh `Shell script which builds a Docker image and runs the container`
-├── run_k8s.sh `A shell script that downloads Docker image, deploys the pod, and forwards the port`
-└── upload_docker.sh `Shell script that pushes the built Docker image to DockerHub`
+circleci `CircleCI directory for the configuration files`
+config.yml `A YAML configuration file with parameters and workflows for building/testing`
+model_data `Contains the model data for the Flask app`
+output_txt_files `A directory containing output logs from Docker and K8s`
+docker_out.txt `Log statements containing output prediction values`
+k8s_out.txt `Log statements containing output prediction values`
+Dockerfile `Builds Docker images based on the instructions within`
+Makefile `Contains a set of utility commands to build and manage the project`  
+README.md `Summary of the project and execution`
+app.py `A flask app which converts a JSON payload to a DataFrame, passes data to the pre-trained model`
+make_predictions.sh `Sends input data to the flask app`
+requirements.txt `Lists required dependencies and package versions`
+run_docker.sh `Shell script which builds a Docker image and runs the container`
+run_k8s.sh `A shell script that downloads Docker image, deploys the pod, and forwards the port`
+upload_docker.sh `Shell script that pushes the built Docker image to DockerHub`
 
 ---
 
