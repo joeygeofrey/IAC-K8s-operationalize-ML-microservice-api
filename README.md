@@ -1,11 +1,11 @@
-# UdaPredict | Operationalize a Machine Learning Microservice API - Joey Geofrey
+# UdaPredict | Operationalize an ML Microservice API - Joey Geofrey
 
 ## Build Status:
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/joeygeofrey/IAC-K8s-operationalize-ML-microservice-api/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/joeygeofrey/IAC-K8s-operationalize-ML-microservice-api/tree/main)
 
 ## Project Scope
 
-Operationalize a Machine Learning Microservice API, using a pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios etc. 
+Operationalize a Machine Learning (ML) Microservice API, using a pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios etc. 
 
 Read more about the data, initially taken from [Kaggle, the data source](https://www.kaggle.com/c/boston-housing). This project tests your ability to operationalize a Python flask app—in a provided file, `app.py`—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
 
