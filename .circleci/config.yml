@@ -1,8 +1,5 @@
 version: 2.1
 
-orbs:
-  slack: circleci/slack@4.12.0
-
 jobs:
   Build:
     docker:
@@ -33,4 +30,4 @@ jobs:
 workflows:
   Build:
     jobs:
-      - build
+      - Build
